@@ -1,0 +1,25 @@
+name: song-recommender-py39
+channels:
+  - conda-forge
+  - defaults
+  - huggingface
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - requests
+  - dask
+  - pandas
+  - pyarrow
+  - pytorch
+  - spotipy
+  - transformers
+  - langchain
+  - accelerate
+  - spotipy
+  - huggingface_hub
+  - pip:
+      - pinecone-client
+      - lyricsgenius
+      - sentence-transformers
+prefix: /Users/hridaybaghar/opt/miniconda3/envs/song-recommender-py39
